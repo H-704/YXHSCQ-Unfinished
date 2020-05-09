@@ -1,0 +1,24 @@
+body 
+{
+  font-family: system-ui;
+  background: #f06d06;
+  color: white;
+}
+#echo
+{
+    background-color: #4CAF50;
+    border-radius: 15%;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    transition: transform 1s, background-color 1s;
+}
+#echo:hover
+{
+    transform: rotate(360deg);
+    background-color: #3299CC;
+}

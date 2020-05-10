@@ -3,7 +3,7 @@ while (1)
 var T=prompt("主题:");
 var A=prompt("事件:");
 var N=prompt("别名:");
-if(T==null||A==null||N==null||T==""||A==""||N=="")
+if (T.count + A.count + N.count === 0)
 {
 alert ("发现未填写元素，请重试。");
 continue;

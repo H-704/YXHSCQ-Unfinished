@@ -3,12 +3,12 @@ function start()
 document.getElementById("demo").innerHTML="";
 while(1)
 {
-var T=prompt("主题:");
-var A=prompt("事件:");
-var N=prompt("别名:");
+var T=prompt("主题/Who:");
+var A=prompt("事件/What Happened:");
+var N=prompt("别名/Expaining:");
 if(T.length * A.length * N.length == 0)
 {
-alert ("发现未填写元素，请重试。");
+alert ("发现未填写元素，请重试。/We detected something empty,please retry.");
 continue;
 }
 break;
